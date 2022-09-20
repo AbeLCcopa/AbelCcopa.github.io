@@ -1,0 +1,45 @@
+.position-fixed{
+    background: rgb(227, 236, 174);
+
+}
+.main-wrapper { 
+    height: 100vh;
+}
+.section{
+    margin: 0; 
+    height: 100%;
+}
+.logo {
+    font-weight: bold;
+    font-size: 7em;
+    border-radius: 20%; 
+    background-color: rgb(176, 220, 250);
+}
+
+.menu a { 
+    font-weight: 100;
+}
+.roundItem{
+    width: 22px;
+    height: 22px; 
+    background-color: rgb(113, 178, 252);
+    border-radius: 100%; 
+    position: relative;
+    border: 2px solid rgb(125, 198, 247);
+} 
+.lineUp{
+    width: 26px;
+    height: 4px;
+    background-color: rgb(15, 1, 1); 
+    position:absolute;
+    transform: rotate(90deg);
+    bottom: 30px; left: -4px;
+}
+.year{
+    position: absolute;
+    right: 25px; 
+    font-size: 0.8em;
+}
+.timeline{
+    margin-left: 5em;
+}
